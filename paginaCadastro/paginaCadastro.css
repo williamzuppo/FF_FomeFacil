@@ -1,0 +1,63 @@
+body {
+    font: 100% Lucida Sans, Verdana;
+    width: 100%;
+    height: 100%;
+    margin: 0px ;
+}
+
+.content-header {
+    display: flex;
+    background-color: #FFBB00;
+    padding: 15px;
+    margin:  0px ;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.content-header div{
+    width: 80%;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+nav {
+    background-color:white;
+    color: black;
+    height: 414px;
+}
+
+fieldset  {
+    border: 5px inset;
+    background: gray;
+    margin: 5px;
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+fieldset div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    border: 1px solid black;
+    background-color: #FFBB00;
+    
+    height: 25px;
+    padding: 5px;
+    
+    
+}
+
+footer h6{
+    display: flex;
+    color: black;
+    margin-top: 5px;
+    justify-content: end;
+}
