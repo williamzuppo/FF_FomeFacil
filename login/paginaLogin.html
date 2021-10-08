@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Fome Fácil</title>
-    <link rel="stylesheet" href="paginaInicial.css">
+    <link rel="stylesheet" href="paginaLogin.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="imagex/png" href="/image/logoFF.ico">
 
@@ -24,27 +24,27 @@
 
         <div>
         <div class="espacoDivNav">
-            <span><b>Bem-Vindo</b></span>
-            <span><b>Faça login ou cadastre-se</b></span>
+            <h1><b>Bem-Vindo</b></h1>
+            <h1><b>Faça login ou cadastre-se</b></h1>
         </div>
 
         <div class="espacoDivNav">
-            <label for="text-email">E-mail</label>
-            <input type="email" name="email" id="text-email" />
+            <label for="text-email"><b>E-mail</b></label>
+            <input type="email" name="email" id="text-email" maxlength="40" placeholder="Ex: youremail@mail.com" required />
         </div>
 
         <div class="espacoDivNav">
-            <label for="text-passw">Senha</label>
-            <input type="password" name="passw" id="text-passw" />
+            <label for="text-passw"><b>Senha</b></label>
+            <input type="password" name="passw" id="text-passw" maxlength="20" placeholder="Digite sua senha" required/>
         </div>
     
         <div class="espacoDivNav">
             <button>
-                <a href="">Entrar</a>
+                <a href="/inicial/paginaInicial.html">Entrar</a>
             </button>
         
             <button id="espacoButton2">
-                <a href="/paginaCadastro/paginaCadastro.html">Cadastrar</a>    
+                <a href="/cadastro/paginaCadastro.html">Cadastrar</a>    
             </button>
         </div>
         </div>
