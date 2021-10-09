@@ -18,11 +18,18 @@ body {
 
 /**/
 .content-header div{
-    color: black;
     display: flex; 
     flex-direction: column;
     align-items: center;
     margin-left: 33%;
+    color: black;
+    
+}
+
+/* Ainda não faz nada, a ideia é 
+deixar a fonte mais grossa */
+.content-header div h1 {
+    font-weight: bold;
 }
 
 /**/
@@ -60,11 +67,17 @@ que petence a nav > div */
     width: 100px;
     height: 30px;
     border-radius: 15px;
+    background-color: black;
 }
 
 /**/
 #espacoButton2{
     margin-top: 20px;
+    background-color: black;
+}
+
+.espacoDivNav button a {
+    color: white;
 }
 
 /**/

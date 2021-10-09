@@ -55,11 +55,16 @@ que petence a nav > div */
     width: 100px;
     height: 30px;
     border-radius: 15px;
+    background-color: black;
 }
 
 /**/
 #espacoButton2{
     margin-top: 20px;
+}
+
+.espacoDivNav button a {
+    color: white;
 }
 
 /**/
