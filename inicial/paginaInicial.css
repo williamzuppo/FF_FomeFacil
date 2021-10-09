@@ -21,3 +21,23 @@ body {
     align-items: center;
     margin-left: 33%;
 }
+
+body nav{
+    background-color: rgb(170, 170, 170);
+}
+
+body nav aside{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+body nav aside div {
+    margin: 5px;
+    background-color: gray;
+    padding: 7px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
