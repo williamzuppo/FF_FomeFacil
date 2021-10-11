@@ -5,25 +5,38 @@ body {
     margin: 0px ;
 }
 
-.content-header {
+header {
     display: flex;
     background-color: #FFBB00;
     padding: 15px;
     margin:  0px ;
-    flex-direction: row;
     border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.content-header div{
+#style-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;  
+}
+
+header div{
     color: black;
     display: flex; 
     flex-direction: column;
     align-items: center;
-    margin-left: 33%;
+}
+
+.alteracao-margin{
+    margin: 10px;
 }
 
 body nav{
     background-color: rgb(170, 170, 170);
+    padding: 5px 0px;
 }
 
 body nav aside{
@@ -32,12 +45,48 @@ body nav aside{
     justify-content: space-evenly;
 }
 
-body nav aside div {
+body nav aside div{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+body nav aside div h5{
+    margin: 15px ;
+    }
+
+body nav aside div img{
     margin: 5px;
     background-color: gray;
-    padding: 7px 10px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+body nav aside div span{
+    background-color: gray;
+    border-radius: 20px;
+}
+
+
+/**/
+footer{
+    border: 1px solid black;
+    background-color: #FFBB00;
+    height: auto;
+    padding: 5px;
+    height: 20px;
+}
+
+/**/
+footer h6{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: black;
+    margin: 2px 0px 0px 0px;
+    justify-content: end;
+    font-size: medium;
+
+}
+
+a {
+  color: white;  
 }

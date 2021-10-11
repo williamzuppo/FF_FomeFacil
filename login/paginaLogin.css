@@ -7,29 +7,43 @@ body {
 }
 
 /**/
-.content-header {
+header {
     display: flex;
     background-color: #FFBB00;
     padding: 15px;
     margin:  0px ;
-    flex-direction: row;
     border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#style-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;  
 }
 
 /**/
-.content-header div{
+header div{
     display: flex; 
     flex-direction: column;
     align-items: center;
-    margin-left: 33%;
+    align-items: center;
     color: black;
     
 }
 
 /* Ainda não faz nada, a ideia é 
 deixar a fonte mais grossa */
-.content-header div h1 {
+header div h1 {
     font-weight: bold;
+}
+
+/**/
+.alteracao-margin{
+    margin: 10px;
 }
 
 /**/
@@ -70,12 +84,6 @@ que petence a nav > div */
     background-color: black;
 }
 
-/**/
-#espacoButton2{
-    margin-top: 20px;
-    background-color: black;
-}
-
 .espacoDivNav button a {
     color: white;
 }
@@ -98,3 +106,7 @@ footer h6{
     font-size: medium;
 
 }
+
+a {
+    color: white;  
+  }
