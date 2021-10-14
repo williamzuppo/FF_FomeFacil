@@ -34,6 +34,19 @@ header div{
     margin: 10px;
 }
 
+.aside-categoria{
+    background-color: gray;
+    color: black;
+    padding: 3px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+body aside h1{
+    background-color: gray;
+      margin: 0px;
+}
+
 body nav{
     background-color: rgb(170, 170, 170);
     padding: 5px 0px;
