@@ -3,6 +3,7 @@ body {
     width: auto;
     height: auto;
     margin: 0px ;
+    
 }
 
 header {
@@ -127,17 +128,17 @@ body aside h1{
     width: 530px;
 }
 
-.centralizar-div {
-    padding-left: 100px;
+
+.emAlta-elementos .centralizar-div h3 {
+    padding: 20px 20px;
+    margin: 0px;
+    
 }
 
-.emAlta-elementos div h5 {
-    margin: 15px 5px 28px 5px;
-}
-
-.emAlta-elementos span h6 {
-    margin: 1px 5px;
-    text-align: center;
+.emAlta-elementos .centralizar-div span h4 {
+    padding: 0px 20px;
+    margin: 0px;
+    
 }
 
 
