@@ -17,13 +17,18 @@ header {
     align-items: center;
 }
 
+/* Estilo de butão padrão */
 #style-button{
-    width: 100px;
-    height: 30px;
-    border-radius: 15px;
-    background-color: black;
-    color: white;  
+    background-color: #FFBB00; 
+    margin: 0px 2.5px;
+}    
+
+    /* Organização dos butões do header */
+header div:last-child{
+    display: flex;
+    flex-direction: row; 
 }
+
 
 /**/
 header div{
