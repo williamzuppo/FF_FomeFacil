@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    height: auto;
+    margin: 0px ;
+    
+}
+
+header {
+    display: flex;
+    background-color: #FFBB00;
+    padding: 15px;
+    margin:  0px ;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo de butão padrão */
+#style-button{
+    background-color: #FFBB00; 
+    margin: 0px 2.5px;
+}    
+
+    /* Organização dos butões do header */
+header div:last-child{
+    display: flex;
+    flex-direction: row; 
+}
+
+
+header div{
+    color: black;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.alteracao-margin{
+    margin: 10px;
+}
+
+.titulo-rotulo{
+    background-color: gray;
+    color: black;
+    padding: 3px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+body aside h1{
+    background-color: gray;
+      margin: 0px;
+}
+
+.background-nav{
+    background-color: rgb(170, 170, 170);
+    padding: 5px 0px;
+}
+
+body nav aside{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+body nav aside div{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+body nav aside div h5{
+    margin: 15px ;
+    }
+
+body nav aside div img{
+    margin: 5px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+body nav aside div span{
+    background-color: gray;
+    border-radius: 20px;
+}
+
+
+/**/
+footer{
+    border: 1px solid black;
+    background-color: #FFBB00;
+    height: auto;
+    padding: 5px;
+    height: 20px;
+}
+
+/**/
+footer h6{
+    display: flex;
+    color: black;
+    margin: 2px 0px 0px 0px;
+    justify-content: end;
+    font-size: medium;
+
+}
+
+a {
+  color: white;  
+}
