@@ -8,18 +8,19 @@ body {
 
 header {
     display: flex;
-    background-color: #FFBB00;
-    padding: 15px;
+    background-color: #1B1B1B;
+    padding: 10px;
     margin:  0px ;
-    border: 1px solid black;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 /* Estilo de butão padrão */
 #style-button{
-    background-color: #FFBB00; 
+    background-color: white; 
     margin: 0px 2.5px;
+    padding: 2px;
 }    
 
     /* Organização dos butões do header */
@@ -29,7 +30,7 @@ header div:last-child{
 }
 
 header div{
-    color: black;
+    color:white;
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -40,20 +41,30 @@ header div{
 }
 
 .titulo-rotulo{
-    background-color: gray;
+    background-color:white;
     color: black;
     padding: 3px 0px;
     display: flex;
     justify-content: center;
 }
 
+/* Cria uma linha fina para separar seções */
+.linha-vertical {
+    margin: 20px 50px 3px 50px;
+    border-bottom: 2px solid #1B1B1B;
+    width: auto;
+    border-radius: 10px;
+
+}
+
+
 body aside h1{
-    background-color: gray;
-      margin: 0px;
+    background-color: white;
+    margin: 0px;
 }
 
 .background-nav{
-    background-color: rgb(170, 170, 170);
+    background-color: white;
     padding: 5px 0px;
 }
 
@@ -70,23 +81,29 @@ align-items: center;
 }
 
 body nav aside div h5{
-    margin: 15px ;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+
     }
 
 body nav aside div img{
     margin: 5px;
-    background-color: gray;
-    padding: 10px;
+    background-color: black;
+    padding: 3px;
     border-radius: 100px;
 }
 
 body nav aside div span{
     background-color: gray;
     border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    height: 25px;
 }
 
 .promos-nav{
-    background-color: rgb(170, 170, 170);
+    background-color: white;
     padding: 10px 0px;
     display: flex;
     justify-content: space-evenly;
@@ -107,15 +124,9 @@ body nav aside div span{
     text-align: center;
 }
 
-
-body aside h1{
-    background-color: gray;
-      margin: 0px;
-}
-
 .emAlta-aside{
     padding: 5px 0px;
-    background-color: rgb(170, 170, 170);
+    background-color: white;
 }
 
 .componentesDuplos-emAlta {
@@ -149,8 +160,7 @@ body aside h1{
 
 /**/
 footer{
-    border: 1px solid black;
-    background-color: #FFBB00;
+    background-color: #1B1B1B;
     height: auto;
     padding: 5px;
     height: 20px;
@@ -159,7 +169,7 @@ footer{
 /**/
 footer h6{
     display: flex;
-    color: black;
+    color: white;
     margin: 2px 0px 0px 0px;
     justify-content: end;
     font-size: medium;
