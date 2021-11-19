@@ -8,13 +8,36 @@ body {
 
 header {
     display: flex;
-    background-color: #1B1B1B;
-    padding: 10px;
+    background-color: #ffea00;
+    padding: 10px 10px 4px 40px;
     margin:  0px ;
-    justify-content: space-between;
-    align-items: center;
-    
+    height: 40px;
 }
+
+/* Todos os h3 do header terão essa config */
+header h3{
+margin: 5px;
+color: black;
+}
+
+/* Config dos botões do header */
+header div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: flex-end;
+}
+
+/* Config do botão 'sair' do header */
+/* header div:nth-child(3){
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+    align-items: flex-end;
+} */
+
+
+
 
 /* Estilo de butão padrão */
 #style-button{
@@ -22,19 +45,6 @@ header {
     margin: 0px 2.5px;
     padding: 2px;
 }    
-
-    /* Organização dos butões do header */
-header div:last-child{
-    display: flex;
-    flex-direction: row; 
-}
-
-header div{
-    color:white;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-}
 
 .alteracao-margin{
     margin: 10px;
@@ -50,7 +60,7 @@ header div{
 
 /* Cria uma linha fina para separar seções */
 .linha-vertical {
-    margin: 20px 50px 3px 50px;
+    margin: 20px 200px 3px 200px;
     border-bottom: 2px solid #1B1B1B;
     width: auto;
     border-radius: 10px;
@@ -80,11 +90,14 @@ flex-direction: column;
 align-items: center;
 }
 
+.background-nav b{
+    color: black;
+}
+
 body nav aside div h5{
     display: flex;
     justify-content: center;
     margin: 5px 0px;
-
     }
 
 body nav aside div img{
@@ -95,11 +108,13 @@ body nav aside div img{
 }
 
 body nav aside div span{
-    background-color: gray;
+    background-color: white;
     border-radius: 20px;
     width: 150px;
     text-align: center;
     height: 25px;
+    border: 1px solid black;
+
 }
 
 .promos-nav{
