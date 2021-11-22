@@ -125,9 +125,12 @@ body nav aside div span{
 }
 .promos{
     display: flex;
-    background-color: gray;
+    background-color: white;
     padding: 5px;
     border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 7px #1B1B1B;
+    
 }
 
 .promos div h5 {
@@ -152,10 +155,13 @@ body nav aside div span{
 
 .emAlta-elementos{
     display: flex;
-    background-color: gray;
+    background-color: white;
     padding: 5px;
     border-radius: 5px;
     width: 530px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 7px #1B1B1B;
+    
 }
 
 
