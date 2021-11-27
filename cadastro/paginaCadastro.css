@@ -5,36 +5,40 @@ body {
     margin: 0px ;
 }
 
+/**/
 header {
     display: flex;
-    background-color: #FFBB00;
-    padding: 15px;
+    background-color: #ffea00;
+    padding: 10px 10px 4px 40px;
     margin:  0px ;
-    border: 1px solid black;
-    justify-content: space-between;
+    height: 40px;
+}
+
+/* Todos os h3 do header terão essa config */
+header h3{
+    margin: 5px;
+    color: black;
+    }
+
+   /* Config posicionamento slogan*/
+header div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    width: 82%;
+    align-items: center;
+}
+
+header a{
+    display: flex;
     align-items: center;
 }
 
 /* Estilo de butão padrão */
 #style-button{
-    background-color: #FFBB00; 
+    background-color: white; 
     margin: 0px 2.5px;
-}    
-
-    /* Organização dos butões do header */
-header div:last-child{
-    display: flex;
-    flex-direction: row; 
-}
-
-
-header div{
-    color: black;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    align-items: center;
-}
+    padding: 2px;
+} 
 
 .alteracao-margin{
     margin: 10px;
@@ -88,7 +92,7 @@ que petence a nav > div */
 /**/
 footer{
     border: 1px solid black;
-    background-color: #FFBB00;
+    background-color: #ffea00;;
     height: auto;
     padding: 5px;
     height: 20px;
@@ -104,5 +108,5 @@ footer h6{
 }
 
 a {
-    color: white;  
+    color: black;  
   }

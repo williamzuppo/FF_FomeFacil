@@ -181,7 +181,7 @@ body nav aside div span{
 
 /**/
 footer{
-    background-color: #1B1B1B;
+    background-color: #ffea00;
     height: auto;
     padding: 5px;
     height: 20px;
@@ -190,13 +190,13 @@ footer{
 /**/
 footer h6{
     display: flex;
-    color: white;
+    color: black;
     margin: 2px 0px 0px 0px;
     justify-content: end;
     font-size: medium;
 
 }
 
-a {
+/* a {
   color: white;  
-}
+} */
