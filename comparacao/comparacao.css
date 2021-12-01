@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    height: auto;
+    margin: 0px ;
+    
+}
+
+header {
+    display: flex;
+    background-color: #ffea00;
+    padding: 10px 10px 4px 40px;
+    margin:  0px ;
+    height: 40px;
+}
+
+/* Todos os h3 do header terão essa config */
+header h3{
+margin: 5px;
+color: black;
+}
+
+/* Config dos botões do header */
+header div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.titulo-rotulo{
+    background-color:white;
+    color: black;
+    padding: 3px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Cria uma linha fina para separar seções */
+.linha-vertical {
+    margin: 20px 200px 3px 200px;
+    border-bottom: 2px solid #1B1B1B;
+    width: auto;
+    border-radius: 10px;
+
+}
+
+body aside h1{
+    background-color: white;
+    margin: 0px;
+}
+
+
+.emAlta-aside{
+    padding: 5px 0px;
+    background-color: white;
+}
+
+.componentesDuplos-emAlta {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px ;
+}
+
+.centralizar-div{
+    width: 60%;
+}
+
+.emAlta-elementos{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 530px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 7px #1B1B1B;
+    
+}
+.emAlta-elementos .centralizar-div h3 {
+    padding: 20px 20px;
+    margin: 0px;   
+}
+
+.emAlta-elementos .centralizar-div span h4 {
+    padding: 0px 20px;
+    margin: 0px;
+}
+
+.preco-comparacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.row-image-preco{
+    display: flex;
+}
+
+.row-image-preco h5{
+    margin: 7px 0px 0px 15px;
+}
+
+/**/
+footer{
+    background-color: #ffea00;
+    height: auto;
+    padding: 5px;
+    height: 20px;
+}
+
+/**/
+footer h6{
+    display: flex;
+    color: black;
+    margin: 2px 0px 0px 0px;
+    justify-content: end;
+    font-size: medium;
+
+}
+
+/* a {
+  color: white;  
+} */
